@@ -6,7 +6,7 @@ Font Awesome icons with fonts bundled in base64
 
 ### Features
 
-Only Font Awesome 6 free icons ( with solid and brand icons ) are bundled as './all.css'.
+Only Font Awesome 6 free icons ( with solid and brand icons ) are bundled as `./all.css`.
 
 https://fontawesome.com/search?o=r&s=solid%2Cregular%2Cbrands
 
@@ -16,12 +16,14 @@ You can checkout [./example.html](./example.html) to see if the fonts are workin
 
 ### How it is bundled
 
-You can check './scripts/sync.ts' of how the bundling is processed.
+You can check `./scripts/sync.ts` of how the bundling is processed.
 
 We use [PostCSS](https://postcss.org/) to bundle the CSS file.
 
 ### Credits to
 
 https://github.com/FortAwesome/Font-Awesome/issues/294
+
 https://github.com/jsweb/font-awesome-base64
+
 https://github.com/keithorbit/font-awesome-base64
